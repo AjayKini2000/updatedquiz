@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: snow; 
+}
+body{
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{
+    font-family:'Noto Sans JP', sans-serif;
+    color: snow;
+    font-size: 80px;
+    font-weight: lighter;
+}
+#header{
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+#question{
+    max-width: 900px;
+    /* padding: 30px; */
+    margin: 30px auto;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+#question:hover{
+    font-size: 23px;
+}
+.option-holder{
+    max-width: 900px;
+    height: 130px;
+    margin: 35px auto;
+    border-radius: 10px;
+}
+.option{
+    cursor: pointer;
+    width: 48%;
+    border: 2px solid snow;
+    padding: 15px;
+    margin: 5px ;
+    border-radius: 10px;
+    height: 56px;
+
+}
+.option:hover{
+    cursor: pointer;
+    /* background-color:mediumorchid; */
+    box-shadow: 0 0.6rem 1.6rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    font-size:18px ;
+
+}
+.option-holder div{
+    /* width: 48%; */
+    float: left;
+    font-weight: bold;
+    font-size: 16px;
+}
+#time-section{
+    max-width: 700px;
+    padding: 25px;
+    height: 280px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+#time{
+    display:flex;
+    justify-content: center;
+    width: 300px;
+    border: 3px solid snow;
+    padding: 5px;
+    margin: 8px auto;
+    border-radius: 10px;
+    background-color: rgba(83, 80, 245, 0.671);
+}
+#qst{
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    border: 3px solid snow;
+    padding: 5px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(83, 80, 245, 0.671);
+    
+}
+.prefix{
+    margin-right: 10px;
+}
+.correct {
+    background-color: #28a745;
+    
+    
+  }
+  
+.incorrect {
+    background-color: #dc3545;
+    
+  }

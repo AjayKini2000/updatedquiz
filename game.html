@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quick Quiz - Play</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="game.css" />
+    <style>
+      body{
+          background: #000046;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+    </style>
+  </head>
+  <body>
+    
+    <div id="header">
+       <h1>QUIZ GAME</h1> 
+    </div>
+    <div id="question">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquid, eligendi sed optio voluptatibus enim similique necessitatibus, atque veritatis, recusandae pariatur nulla dicta ratione rerum cupiditate reprehenderit! Non, ad magnam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, esse!</p>
+    </div>
+    <div class="option-holder">
+        <div class="option choice-text" data-number="1"><div class="prefix">A. </div> Lorem, ipsum dolor sit amet consectetur </div>
+        <div class="option choice-text" data-number="2"><div class="prefix">B. </div> Lorem, ipsum dolor sit amet consectetur </div>
+        <div class="option choice-text" data-number="3"><div class="prefix">C. </div> Lorem, ipsum dolor sit amet consectetur </div>
+        <div class="option choice-text" data-number="4"><div class="prefix">D. </div> Lorem, ipsum dolor sit amet consectetur </div>
+    </div>
+    <div id="time-section"><div id="time"><div id= "countdown"></div></div>
+   
+    <div id="qst">1/10</div>
+    <script src="game.js"></script>
+    <script src="timer.js"></script>
+  </body>
+</html>
